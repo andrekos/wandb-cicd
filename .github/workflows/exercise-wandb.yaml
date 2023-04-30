@@ -1,5 +1,7 @@
 name: excercise-wandb
-on: issue_comment
+on: 
+  pull_request:
+    types: [opened, reopened, synchronize, labeled, unlabeled]
 
 permissions:
   contents: read
